@@ -1,0 +1,83 @@
+body{ margin:0; padding:0;}
+
+#background {position: fixed;top: 50%;
+left: 50%;
+
+    min-width: 100%;
+
+    min-height: 100%;
+
+    width: auto;
+
+    height: auto;
+
+    z-index: -100;
+
+    -webkit-transform: translateX(-50%) translateY(-50%);
+
+    transform: translateX(-50%) translateY(-50%);
+
+    background: url(polina.jpg) no-repeat;
+
+    background-size: cover;
+
+}
+
+.displaynone {display: none;}
+.displayblock {display: block;}
+
+.Fullwidth{ background: white; margin-top:200px; padding-bottom:100px;}
+
+.imgheader { width:100%;margin:0; padding:0; background: none;}
+
+/*.imgheader { background: url('img/bg.jpg') center center no-repeat;}*/
+
+.imgheader h2 { text-shadow: 2px 2px #333; color:#fff; font-size: 4em;text-transform: uppercase;letter-spacing: 20px; padding-top:200px;text-align: center;}
+
+.col-lg-6 { justify-content: center;}
+
+ul{text-align: left; list-style: none;  margin:0 auto;}
+li {
+
+margin-top:20px;
+padding:30px;
+opacity:0.5;
+transition: 1s all;
+;}
+
+li:hover {
+  opacity:1;
+  transition: 1s all;
+
+}
+
+h1 { font-size: 0.9em; width:420px; border-bottom: 1px solid #F90;height:20px;}
+
+.contentQ { margin-top:20px;}
+
+#circle {
+   width: 140px;
+   height: 140px;
+   background:#f90;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 70px;
+   float:left;
+}
+
+input { margin:0; }
+#circle  p { margin-top:40px; font-size: 2em; color: white; margin-left:50px;}
+
+label { font-size: 0.9em;}
+
+.contentQ{margin-left:150px;}
+
+.suivant { margin:0 auto; text-align: center; margin-bottom: 500px; padding-top: 50px; margin-top:50px; border-top: 2px solid #F90;}
+
+.envoyer { margin:0 auto; text-align: center; padding-top: 50px; margin-top:50px; border-top: 2px solid #F90; }
+
+.Btn { padding:20px; width:20%; border: 2Px solid #F90; background: none; color:#333;transition: 1s all;}
+.Btn:hover { padding:20px; width:20%; border: 2Px solid #F90; background: #F90;color:#fff; transition: 1s all;}
+
+.alien { width: 100%; height:100px; background: #ccc;}
+.alien img{ width:60px;height:100px; }

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quizz - Alien</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css" media="all">
+
+</head>
+  <body>
+
+
+
+  <video autoplay loop muted poster="screenshot.jpg" id="background">
+
+      <source src="img/alien.mp4" type="video/mp4">
+
+  </video>
+
+      <div class="imgheader">
+
+        <h2>Quizz-Alien</h2>
+
+            <!--<div class="alien">
+              <img src="img/alien.png";/>
+            </div>-->
+
+      </div>
+      <main class="Fullwidth">
+    <form method="post" action="./script.php">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+              <ul>
+                <li>
+                    <div id="circle"><p>Q1</p></div>
+                    <div class="contentQ">
+                    <h1>Comment s'appelle le vaisseau dans Alien ?</h1>
+                    <input type="radio" name="vaisseau" value="Nautilius">
+                    <label>Le Nautilius</label>
+                    </br>
+                    <input type="radio" name="vaisseau" value="Nostromo">
+                    <label>Le Nostromo</label>
+                    </br>
+                    <input type="radio" name="vaisseau" value="Narcisuss">
+                    <label>Le Narcisuss</label>
+                  </div>
+                </li>
+              </ul>
+
+        </div>
+
+        <div class="col-lg-6">
+            <ul>
+              <li>
+                  <div id="circle"><p>Q2</p></div>
+                  <div class="contentQ">
+                  <h1>Quelle actrice tient le rôle de Ripley ?</h1>
+                  <input type="radio" name="actrice" value="Sarandon">
+                  <label>Susan Sarandon</label>
+                  </br>
+                  <input type="radio" name="actrice" value="Jamie Lee Curtis">
+                  <label>Jamie Lee Curtis</label>
+                  </br>
+                  <input type="radio" name="actrice" value="Sigourney Weaver">
+                  <label>Sigourney Weaver</label>
+                </div>
+              </li>
+            </ul>
+
+      </div>
+
+      <div class="col-lg-6">
+          <ul>
+            <li>
+                <div id="circle"><p>Q3</p></div>
+                <div class="contentQ">
+                <h1>Quel est le nom de l'ordinateur du vaisseau ?</h1>
+                <input type="radio" name="ordinateur" value="ZX32">
+                <label>ZX32</label>
+                </br>
+                <input type="radio" name="ordinateur" value="Maman">
+                <label>Maman</label>
+                </br>
+                <input type="radio" name="ordinateur" value="James">
+                <label>James</label>
+              </div>
+            </li>
+          </ul>
+
+    </div>
+
+    <div class="col-lg-6">
+        <ul>
+          <li>
+              <div id="circle"><p>Q4</p></div>
+              <div class="contentQ">
+              <h1>Comment se nomme le robot dans Alien 1 ?</h1>
+              <input type="radio" name="robot1" value="Ash">
+              <label>Ash</label>
+              </br>
+              <input type="radio" name="robot1" value="Bishop">
+              <label>Bishop</label>
+              </br>
+              <input type="radio" name="robot1" value="C3PO">
+              <label>C3PO</label>
+            </div>
+          </li>
+        </ul>
+
+  </div>
+  <div class="col-lg-6">
+      <ul>
+        <li>
+            <div id="circle"><p>Q5</p></div>
+            <div class="contentQ">
+            <h1>Quel est le nom de la planète où ils découvrent les Alien ?</h1>
+            <input type="text" name="LV426">
+          </div>
+        </li>
+      </ul>
+
+  </div>
+  <div class="col-lg-6">
+      <ul>
+        <li>
+            <div id="circle"><p>Q6</p></div>
+            <div class="contentQ">
+            <h1>Dans Alien 2, quel est le nom du robot ?</h1>
+            <input type="radio" name="robot2" value="Ash">
+            <label>Ash</label>
+            </br>
+            <input type="radio" name="robot2" value="Bishop">
+            <label>Bishop</label>
+            </br>
+            <input type="radio" name="robot2" value="C3PO">
+            <label>C3PO</label>
+          </div>
+        </li>
+      </ul>
+
+</div>
+<div class="col-lg-6">
+    <ul>
+      <li>
+          <div id="circle"><p>Q7</p></div>
+          <div class="contentQ">
+          <h1>Quel est le prénom de la petite fille retrouvée dans Alien 2 ?</h1>
+          <input type="radio" name="robot3" value="Rebecca">
+          <label>Rebecca</label>
+          </br>
+          <input type="radio" name="robot3" value="Jessica">
+          <label>Jessica</label>
+          </br>
+          <input type="radio" name="robot3" value="Linda">
+          <label>Linda</label>
+        </div>
+      </li>
+    </ul>
+
+</div>
+<div class="col-lg-6">
+    <ul>
+      <li>
+          <div id="circle"><p>Q8</p></div>
+          <div class="contentQ">
+          <h1>Dans Alien 1, comment s'appelle le Commandant de bord ?</h1>
+          <input type="radio" name="commandant" value="Ash">
+          <label>S.E. Brett</label>
+          </br>
+          <input type="radio" name="commandant" value="Bishop">
+          <label> J.T Parker</label>
+          </br>
+          <input type="radio" name="commandant" value="C3PO">
+          <label>A.J Dallas</label>
+        </div>
+      </li>
+    </ul>
+
+</div>
+<div class="col-lg-6">
+    <ul>
+      <li>
+          <div id="circle"><p>Q9</p></div>
+          <div class="contentQ">
+          <h1>Pendant combien d'années, Ripley a-t-elle dérivée dans l'espace ?</h1>
+          <input type="radio" name="ripley" value="47 ans">
+          <label>47 ans</label>
+          </br>
+          <input type="radio" name="ripley" value="57 ans">
+          <label>57 ans</label>
+          </br>
+          <input type="radio" name="ripley" value="67 ans">
+          <label>67 ans</label>
+        </div>
+      </li>
+    </ul>
+
+</div>
+        <div class="col-lg-6">
+            <ul>
+              <li>
+                  <div id="circle"><p>Q10</p></div>
+                  <div class="contentQ">
+                  <h1>Qui est le réalisateur d'Alien 3 ?</h1>
+                  <input type="radio" name="real" value="James Cameron">
+                  <label>James Cameron</label>
+                  </br>
+                  <input type="radio" name="real" value="David Fincher">
+                  <label>David Fincher</label>
+                  </br>
+                  <input type="radio" name="real" value=" Ridley Scott">
+                  <label> Ridley Scott</label>
+                </div>
+              </li>
+            </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+     <div class="envoyer"><input  type ="submit" value="envoyer" class="Btn"> </div>
+
+   </form>
+    <div class="suivant"><button  id="next" value="Suivant" class="Btn"> Suivant</div>
+  </main>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="./js/script.js"></script>
+  </body>
+</html>
